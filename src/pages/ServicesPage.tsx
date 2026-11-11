@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import servicesImage from '../assets/images/technology_erp_dashboards_1794410797761.jpg';
 import { useSearchParams } from 'react-router-dom';
 import {
   CheckCircle2,
@@ -291,7 +292,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
                 </div>
                 <div className="lg:col-span-5 h-48 lg:h-full relative min-h-[180px]">
                   <img
-                    src="/src/assets/images/technology_erp_dashboards_1794410797761.jpg"
+                    src={servicesImage}
                     alt="Enterprise technology operations and dashboards"
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
