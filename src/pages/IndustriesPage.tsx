@@ -1,4 +1,5 @@
 import React from 'react';
+import industriesImage from '../assets/images/industry_manufacturing_logistics_1794410797475.jpg';
 import { Link } from 'react-router-dom';
 import {
   Factory,
@@ -53,7 +54,7 @@ export const IndustriesPage: React.FC<IndustriesPageProps> = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm relative max-h-[380px]">
             <img
-              src="/src/assets/images/industry_manufacturing_logistics_1794410797475.jpg"
+              src={industriesImage}
               alt="Industrial scale manufacturing and logistics operations"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
