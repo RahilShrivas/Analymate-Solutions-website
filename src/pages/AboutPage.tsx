@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutImage from '../assets/images/about_systems_consulting_1794410796564.jpg';
 import { Link } from 'react-router-dom';
 import {
   ShieldCheck,
@@ -77,7 +78,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenConsultation }) => {
             <div className="lg:col-span-5">
               <div className="rounded-xl overflow-hidden border border-slate-200 shadow-lg bg-slate-100">
                 <img
-                  src="/src/assets/images/about_systems_consulting_1794410796564.jpg"
+                  src={aboutImage}
                   alt="Analymate consulting team reviewing process blueprints"
                   className="w-full h-auto object-cover"
                   referrerPolicy="no-referrer"
