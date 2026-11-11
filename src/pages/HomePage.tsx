@@ -1,4 +1,5 @@
 import React from 'react';
+import heroImage from '../assets/images/hero_business_operations_1794410796125.jpg';
 import { Link } from 'react-router-dom';
 import {
   TrendingDown,
@@ -129,7 +130,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
             <div className="lg:col-span-5 relative flex items-center">
               <div className="w-full h-full min-h-[380px] lg:min-h-[500px] rounded-2xl overflow-hidden border border-slate-200 shadow-lg relative bg-slate-100 group">
                 <img
-                  src="/src/assets/images/hero_business_operations_1794410796125.jpg"
+                  src={heroImage}
                   alt="Operations leadership overlooking modern logistics and production facility"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"
